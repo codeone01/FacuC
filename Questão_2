@@ -1,0 +1,2 @@
+### Faça um programa que leia um número n(n>0) e calcula o valor de R,atrasvés da seguinte formula:  ####
+### R = 15 + 15/3 + 15/5 +15/7 + ... + 15/(2*N + 1)   ####
