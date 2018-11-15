@@ -1,0 +1,3 @@
+### Faça um programa que pergunte ao usuário primeiro quantos números ele pretende digitar;    ####
+### Em seguida,o programa deverá perguntar esses números ao usuário e a cada número digitado o programa deverá imprimir na tela  ####
+### se o número é o produto de 3 números intieiros consecutivos ou nao; ####
