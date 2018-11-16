@@ -1,2 +1,29 @@
 ### Faça um programa que solicite aousuário quantos números ele pretende digitar.  ####
 ### Em seguida o programa  deverá calcular e imprimir na tela a média dos números digitados.  ####
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese");
+    int num = 0, i = 1, j = 0;
+    float soma = 0, result = 0;
+
+    printf("Quantos números deseja digitar? ");
+    scanf("%d", &j);
+
+    while (i <= j){
+        printf("Digite o número: ");
+        scanf("%d", &num);
+        soma = soma + num;
+        i = i + 1;
+    }
+
+    result = soma / j;
+    printf("A média dos números digitados é = %.2lf",result);
+
+    return 0;
+}
