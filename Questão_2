@@ -1,2 +1,22 @@
 ### Faça um programa que leia um número n(n>0) e calcula o valor de R,atrasvés da seguinte formula:  ####
 ### R = 15 + 15/3 + 15/5 +15/7 + ... + 15/(2*N + 1)   ####
+
+#include <stdio.h> 
+#include <locale.h>
+
+int main() {
+	
+setlocale(LC_ALL, "Portuguese"); 
+int i = 1; 
+double s = 0, n = 0; 
+printf("Digite o valor de N:\n"); 
+scanf("%lf", &n);
+if(n>0) {
+for (; i <=n;i++) {
+  s = s + ( 15/ (2*n + 1)); 
+  }
+   printf("A soma é %lf:\n", s);  }
+  else{
+  printf("tente novamente!");
+}
+   }
